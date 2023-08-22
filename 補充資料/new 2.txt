@@ -1,0 +1,160 @@
+"type": "bubble",
+                    "body": {
+                        "type": "box",
+                        "layout": "vertical",
+                        "contents": [
+                        {
+                            "type": "box",
+                            "layout": "horizontal",
+                            "contents": [
+                            {
+                                "type": "image",
+                                "url": "https://i.imgur.com/rwR2yUr.jpg",
+                                "size": "5xl",
+                                "aspectMode": "cover",
+                                "aspectRatio": "150:196",
+                                "gravity": "center",
+                                "flex": 1
+                            },
+                            {
+                                "type": "box",
+                                "layout": "vertical",
+                                "contents": [
+                                {
+                                    "type": "image",
+                                    "url": "https://i.imgur.com/N9TKsay.jpg",
+                                    "size": "full",
+                                    "aspectMode": "cover",
+                                    "aspectRatio": "150:98",
+                                    "gravity": "center"
+                                },
+                                {
+                                    "type": "image",
+                                    "url": "https://i.imgur.com/2DF9KJg.png",
+                                    "size": "full",
+                                    "aspectMode": "cover",
+                                    "aspectRatio": "150:98",
+                                    "gravity": "center"
+                                }
+                                ],
+                                "flex": 1
+                            }
+                            ]
+                        },
+                        {
+                            "type": "box",
+                            "layout": "horizontal",
+                            "contents": [
+                            {
+                                "type": "box",
+                                "layout": "vertical",
+                                "contents": [
+                                {
+                                    "type": "image",
+                                    "url": "https://i.imgur.com/lkK1WZz.png",
+                                    "aspectMode": "cover",
+                                    "size": "full"
+                                }
+                                ],
+                                "cornerRadius": "100px",
+                                "width": "72px",
+                                "height": "72px"
+                            },
+                            {
+                                "type": "box",
+                                "layout": "vertical",
+                                "contents": [
+                                {
+                                    "type": "text",
+                                    "contents": [],
+                                    "size": "xl",
+                                    "text": "股價到價提醒",
+                                    "weight": "bold",
+                                    "action": {
+                                    "type": "message",
+                                    "label": "到價提醒",
+                                    "text": "股價提醒"
+                                    }
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "到價提醒定時通知價格",
+                                    "size": "sm",
+                                    "color": "#B34E80"
+                                }
+                                ]
+                            }
+                            ],
+                            "spacing": "xl",
+                            "paddingAll": "20px"
+                        },
+                        {
+                            "type": "box",
+                            "layout": "horizontal",
+                            "contents": [
+                            {
+                                "type": "box",
+                                "layout": "vertical",
+                                "contents": [
+                                {
+                                    "type": "image",
+                                    "url": "https://i.imgur.com/oXtXe8R.png",
+                                    "aspectMode": "cover",
+                                    "size": "full"
+                                }
+                                ],
+                                "cornerRadius": "100px",
+                                "width": "72px",
+                                "height": "72px"
+                            },
+                            {
+                                "type": "box",
+                                "layout": "vertical",
+                                "contents": [
+                                {
+                                    "type": "text",
+                                    "contents": [],
+                                    "size": "xl",
+                                    "text": "匯率即期推播",
+                                    "action": {
+                                    "type": "message",
+                                    "label": "匯率提醒",
+                                    "text": "匯率提醒"
+                                    },
+                                    "weight": "bold"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "匯率價格即時呈現",
+                                    "color": "#B34E80",
+                                    "size": "sm"
+                                }
+                                ]
+                            }
+                            ],
+                            "spacing": "xl",
+                            "paddingAll": "20px"
+                        }
+                        ],
+                        "paddingAll": "0px"
+                    },
+                    "footer": {
+                        "type": "box",
+                        "layout": "vertical",
+                        "contents": [
+                        {
+                            "type": "text",
+                            "text": "⛔關閉提醒⛔",
+                            "size": "lg",
+                            "weight": "bold",
+                            "align": "center",
+                            "color": "#91091E",
+                            "action": {
+                            "type": "message",
+                            "label": "action",
+                            "text": "關閉提醒"
+                            }
+                        }
+                        ]
+                }
+        }
